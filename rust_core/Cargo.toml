@@ -1,0 +1,15 @@
+[package]
+name = "monty_core"
+version = "0.1.0"
+edition = "2021"
+authors = ["Thousand Brains Project"]
+
+[dependencies]
+
+[lib]
+name = "monty_core"
+path = "src/lib.rs"
+
+[[bin]]
+name = "monty_core"
+path = "src/main.rs"
